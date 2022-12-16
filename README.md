@@ -1,5 +1,6 @@
 # Stroke Analysis
 This repository is a final project for DATA 5100 class: Introduction to Data Science from Seattle University. This project requires student to perform analysis and machine learning to real life data. 
+
 In this project, the author tries to describe characteristics of a person who have stroke based on their health indicators and conditions. Then using machine learning to predict the probability of a person who have stroke.
 
 # Data description:
@@ -9,13 +10,16 @@ We want to predict the probability of people who get stroke from this dataset, w
 
 # Analytical Approach:
 This dataset include our independent and dependent variables, with the dependent one being binary, so we will apply supervised learning with classification problem.
-For this type of problem, Decision Tree models and Logistic Regression will be applied. More sophisticated tree-based like Random Forest and XGBoost might be used.
+For this type of problem, Decision Tree models and Logistic Regression will be applied. 
+
+More sophisticated tree-based like Random Forest and XGBoost might be used.
 Since the data is heavily imbalanced and the baseline model might be bias toward the non-stroke class, we will try to mix in resampling methods and balanced weight class parameter.
 
 # Data Source:
 The data is found here: https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset
 
 _ Limitation: The original collected sources are kept unknown and only for practice purposes only.
+
 _ Assumption: Without clear timestamp of when the conditions are collected, we will use this data under some assumptions: The age column presents the timestamp when the person got stroke for the first time, and all other conditions are underlying conditions.
 
 # Solution technologies:
