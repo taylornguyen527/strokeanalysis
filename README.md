@@ -20,3 +20,8 @@ _ Assumption: Without clear timestamp of when the conditions are collected, we w
 
 # Solution technologies:
 We will first use pandas, seaborn and matplotlib packages for data cleaning, exploratory analysis and visualization. Finally, Scikit_learn library will be applied to train and predict the data to predict how many people whether get stroke or not, and the module library of confusion matrix (confusion_matrix, classification_report) to calculate the accuracy of the model.
+
+# Navigation
+Dataset:
+EDA:
+Modeling:
